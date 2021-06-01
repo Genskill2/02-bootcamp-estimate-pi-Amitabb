@@ -4,9 +4,9 @@ import unittest
 def wallis(n):
     pi=0.0
     for i in range(1,n+1):
-        value=(4*n*n)/(4*n*n-1)
+        value=float((4*n*n)/(4*n*n-1))
         pi=pi+vallue
-    return pi
+    return pi/2
 
 class TestWallis(unittest.TestCase):
     def test_low_iters(self):
