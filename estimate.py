@@ -5,7 +5,7 @@ def wallis(n):
     pi=1
     for i in range(1,n+1):
         value=float((4*i*i)/(4*i*i-1))
-        pi=pi*vallue
+        pi=pi*value
     return pi*2
 
 class TestWallis(unittest.TestCase):
