@@ -2,10 +2,10 @@ import math
 import unittest
 
 def wallis(n):
-    pi=0.0
+    pi=1
     for i in range(1,n+1):
         value=float((4*n*n)/(4*n*n-1))
-        pi=pi+vallue
+        pi=pi*vallue
     return pi/2
 
 class TestWallis(unittest.TestCase):
