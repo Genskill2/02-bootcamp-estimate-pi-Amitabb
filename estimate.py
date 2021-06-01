@@ -18,7 +18,7 @@ def monte_carlo(n):
         q=[x,y]
         d=math.dist(p, q)
         if (d>1):
-            circle+=circle
+            circle+=1
     pi=4*(circle/n)
     return pi
         
